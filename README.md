@@ -24,11 +24,6 @@ Below is a sample of the dataset:
 | The Dark Knight | 0.2892 | -0.1655 | -0.1424 | -0.0311 | 0.1253 | 9.0 |
 | The Godfather Part II | 0.3743 | 0.0303 | 0.0188 | -0.3198 | 0.1378 | 9.0 |
 | 12 Angry Men | 0.5011 | -0.1799 | -0.2688 | -0.1959 | 0.0727 | 8.9 |
-| Pulp Fiction | 0.5555 | -0.2217 | -0.0860 | -0.1854 | 0.0689 | 8.9 |
-| Schindler's List | 0.4915 | -0.1095 | -0.2660 | -0.1503 | 0.0120 | 8.9 |
-| Fight Club | 0.4906 | -0.2116 | -0.0642 | -0.1459 | 0.0803 | 8.8 |
-| Forrest Gump | 0.2303 | -0.1790 | -0.0171 | 0.0306 | 0.0886 | 8.8 |
-| Inception | 0.3075 | -0.1803 | -0.1171 | -0.0424 | 0.1258 | 8.8 |
 
 These scores represent the average personality trait levels of users who liked each movie.
 
