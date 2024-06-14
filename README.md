@@ -9,7 +9,7 @@ The primary goal of this project is to investigate whether aggregated personalit
 This exploration could provide insights into the relationship between personality traits and movie preferences, potentially aiding in the development of personalized recommendation systems.
 
 ## Dataset
-The dataset used in this project is derived from the MyPersonality dataset, which contains Big Five personality questionnaire responses from about 1000 Facebook users along with the movies they liked. For each movie (850 in total), there are calculated aggregated mean scores for each of the Big Five personality traits (Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism) across all users who liked that movie.
+The dataset used in this project is derived from the MyPersonality dataset, which contains Big Five personality questionnaire responses from about 1000 Facebook users along with the movies they liked. For each movie (850 in total), there are calculated aggregated mean scores for each of the Big Five personality traits (OCEAN - Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism) across all users who liked that movie.
 
 The target variable (what we are trying to predict) is the rating of each movie.
 
