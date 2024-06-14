@@ -12,12 +12,6 @@ The dataset used in this project is derived from the MyPersonality dataset, whic
 The target variable (what we are trying to predict) is the rating of each movie.
 
 ## Models
-:
-- K-Nearest Neighbors (KNN)
-- Random Forest
-- Gradient Boosting
-- Support Vector Regression (SVR)
-
 We evaluate multiple machine learning regression models for our predictions.    
 Each model undergoes hyperparameter tuning using GridSearchCV and is evaluated using 7-fold cross-validation.
 
