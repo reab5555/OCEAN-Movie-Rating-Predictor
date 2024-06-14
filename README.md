@@ -21,29 +21,14 @@ We evaluate the following regression models for our predictions:
 Each model undergoes hyperparameter tuning using GridSearchCV and is evaluated using 7-fold cross-validation.
 
 ## Results
-### K-Nearest Neighbors (KNN)
-- Optimal parameters: 23 neighbors
-- Average RMSE: 0.839
-- Average MAPE: 10.184%
-- Average R-Squared across folds: 0.291
-  
-### Random Forest
-- Optimal parameters: 100 estimators, max depth of 5
-- Average RMSE: 0.848
-- Average MAPE: 10.068%
-- Average R-Squared across folds: 0.275
+## Results
 
-### Gradient Boosting
-- Optimal parameters: 600 estimators, learning rate of 0.005
-- Average RMSE: 0.856
-- Average MAPE: 10.251%
-- Average R-Squared across folds: 0.261
-
-### Support Vector Regression (SVR)
-- Optimal parameters: C=1, linear kernel
-- Average RMSE: 0.847
-- Average MAPE: 10.160%
-- Average R-Squared across folds: 0.276
+| Model | Optimal Parameters | Average RMSE | Average MAPE | Average R-Squared |
+|-------|-------------------|-------------|-------------|------------------|
+| K-Nearest Neighbors (KNN) | 23 neighbors | 0.839 | 10.184% | 0.291 |
+| Random Forest | 100 estimators, max depth of 5 | 0.848 | 10.068% | 0.275 |
+| Gradient Boosting | 600 estimators, learning rate of 0.005 | 0.856 | 10.251% | 0.261 |
+| Support Vector Regression (SVR) | C=1, linear kernel | 0.847 | 10.160% | 0.276 |
 
 ### Model Comparison
 
