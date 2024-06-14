@@ -13,7 +13,7 @@ The target variable (what we are trying to predict) is the rating of each movie.
 
 ## Sample Data
 
-Below is a sample of our dataset, showing the aggregated Big Five personality traits (Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism) for some popular movies along with their IMDb ratings:
+Below is a sample of the dataset:
 
 | Movie Title | Openness | Conscientiousness | Extraversion | Agreeableness | Neuroticism | IMDb Rating |
 |-------------|----------|-------------------|-------------|---------------|-------------|-------------|
@@ -28,11 +28,7 @@ Below is a sample of our dataset, showing the aggregated Big Five personality tr
 | Forrest Gump | 0.2303 | -0.1790 | -0.0171 | 0.0306 | 0.0886 | 8.8 |
 | Inception | 0.3075 | -0.1803 | -0.1171 | -0.0424 | 0.1258 | 8.8 |
 
-These scores represent the average personality trait levels of users who liked each movie. The traits are measured on a scale where 0 represents the population average, positive values are above average, and negative values are below average. 
-
-For example, we can observe that fans of "Pulp Fiction" tend to score high on Openness (0.5555) but low on Conscientiousness (-0.2217) compared to the average population. Meanwhile, "The Shawshank Redemption" fans are closer to average on most traits, with a slight tendency towards higher Openness (0.2652) and Neuroticism (0.1634).
-
-Our models aim to predict the IMDb rating using these personality trait scores as features.
+These scores represent the average personality trait levels of users who liked each movie.
 
 ## Models
 We evaluate multiple machine learning regression models for our predictions.    
