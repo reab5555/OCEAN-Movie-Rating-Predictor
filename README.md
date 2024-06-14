@@ -1,4 +1,4 @@
-<img src="icon.webp" alt="icon" width="100"/>
+<img src="icon.webp" alt="icon" width="150"/>
 
 # OCEAN-Movie-Rating-Predictor
 This project aims to predict movie ratings based on Big Five personality traits.
