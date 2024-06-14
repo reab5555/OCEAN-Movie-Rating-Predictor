@@ -11,6 +11,29 @@ The dataset used in this project is derived from the MyPersonality dataset, whic
 
 The target variable (what we are trying to predict) is the rating of each movie.
 
+## Sample Data
+
+Below is a sample of our dataset, showing the aggregated Big Five personality traits (Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism) for some popular movies along with their IMDb ratings:
+
+| Movie Title | Openness | Conscientiousness | Extraversion | Agreeableness | Neuroticism | IMDb Rating |
+|-------------|----------|-------------------|-------------|---------------|-------------|-------------|
+| The Shawshank Redemption | 0.2652 | -0.0440 | -0.0617 | 0.0167 | 0.1634 | 9.3 |
+| The Godfather | 0.3176 | -0.0699 | -0.0391 | -0.2070 | 0.1539 | 9.2 |
+| The Dark Knight | 0.2892 | -0.1655 | -0.1424 | -0.0311 | 0.1253 | 9.0 |
+| The Godfather Part II | 0.3743 | 0.0303 | 0.0188 | -0.3198 | 0.1378 | 9.0 |
+| 12 Angry Men | 0.5011 | -0.1799 | -0.2688 | -0.1959 | 0.0727 | 8.9 |
+| Pulp Fiction | 0.5555 | -0.2217 | -0.0860 | -0.1854 | 0.0689 | 8.9 |
+| Schindler's List | 0.4915 | -0.1095 | -0.2660 | -0.1503 | 0.0120 | 8.9 |
+| Fight Club | 0.4906 | -0.2116 | -0.0642 | -0.1459 | 0.0803 | 8.8 |
+| Forrest Gump | 0.2303 | -0.1790 | -0.0171 | 0.0306 | 0.0886 | 8.8 |
+| Inception | 0.3075 | -0.1803 | -0.1171 | -0.0424 | 0.1258 | 8.8 |
+
+These scores represent the average personality trait levels of users who liked each movie. The traits are measured on a scale where 0 represents the population average, positive values are above average, and negative values are below average. 
+
+For example, we can observe that fans of "Pulp Fiction" tend to score high on Openness (0.5555) but low on Conscientiousness (-0.2217) compared to the average population. Meanwhile, "The Shawshank Redemption" fans are closer to average on most traits, with a slight tendency towards higher Openness (0.2652) and Neuroticism (0.1634).
+
+Our models aim to predict the IMDb rating using these personality trait scores as features.
+
 ## Models
 We evaluate multiple machine learning regression models for our predictions.    
 Each model undergoes hyperparameter tuning using GridSearchCV and is evaluated using 7-fold cross-validation.
