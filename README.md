@@ -21,7 +21,6 @@ We evaluate the following regression models for our predictions:
 Each model undergoes hyperparameter tuning using GridSearchCV and is evaluated using 7-fold cross-validation.
 
 ## Results
-## Results
 
 | Model | Optimal Parameters | Average RMSE | Average MAPE | Average R-Squared |
 |-------|-------------------|-------------|-------------|------------------|
