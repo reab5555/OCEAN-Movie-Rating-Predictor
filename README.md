@@ -43,7 +43,7 @@ Each model undergoes hyperparameter tuning using GridSearchCV and is evaluated u
 | Gradient Boosting | 600 estimators, learning rate of 0.005 | 0.856 | 10.251% | 0.261 |
 | Support Vector Regression (SVR) | C=1, linear kernel | 0.847 | 10.160% | 0.276 |
 
-<img src="regplot_bestmodel.png" alt="Regression Plot of Best Model" width="500"/>
+<img src="regplot_bestmodel.png" alt="Regression Plot of Best Model" width="600"/>
 ### Model Comparison
 
 Among the four models, the K-Nearest Neighbors (KNN) regressor performed the best, achieving the highest R-squared value (0.291) and the lowest RMSE (0.839). This suggests that the KNN model explains approximately 29.1% of the variance in movie ratings based on the aggregated personality traits.
